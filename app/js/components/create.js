@@ -73,7 +73,6 @@ class Create extends React.Component {
       SongActions.addSong(songData);
       console.log('this.refs.songname', this.refs.songName)
       this.setState({songTitle: ''});
-      // this.refs.songName.getDOMNode().value = '';
     }
   }
 
